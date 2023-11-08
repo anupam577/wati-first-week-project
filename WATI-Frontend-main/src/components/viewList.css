@@ -1,0 +1,65 @@
+/* ViewList.css */
+.friend-table-container {
+    margin-top: 20px;
+  }
+  
+  .friend-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .friend-table th,
+  .friend-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .friend-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .friend-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .friend-table td {
+    position: relative;
+  }
+  
+  .friend-table td:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: -12px;
+    width: calc(100% + 24px);
+    height: calc(100% + 2px);
+    background-color: #f9f9f9;
+    z-index: -1;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .edit-button,
+  .delete-button {
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover,
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  

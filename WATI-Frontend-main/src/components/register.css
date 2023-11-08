@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px); /* Add a little bulge effect */
+    transition: transform 0.3s ease;
+  }
+  
+  .form-box:hover {
+    transform: translateY(-5px); /* Reduce the bulge effect on hover */
+  }
+  
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  .form-group label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .form-group input {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  .submit-button {
+    border: none;
+    background-color: #ffcc00;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #ffdb4d;
+  }
+  
+  .login-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .form-group.email-group {
+    margin-bottom: 10px;
+   
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
